@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>DOM learning</title>
+    <style>
+        .bg-black{
+            background-color: #212121;
+            color: #fff;
+        }
+        </style>
+</head>
+
+<body class="bg-black">
+    <div >
+        <h1 id="title" class="heading">DOM learning on Chai aur code</h1>  <!-- text content shows all the text present whereas innertext only shows visible content -->
+        <!-- innerhtml shows all the text including the html content too. -->
+        <p>Lorem Ipsum</p>
+    </div>
+</body>
+
+</html>
+
+<!-- query selector selects the first html property and displays it on the console -->
+ <!-- Use #idName to access any elemeny by its id and use .className to access any element by its class  -->
+  <!-- NodeList has only foreach functionality compared to an array. So it depends on what you want to achieve if you want to convert the NodeList into an array -->
+<!-- Similarly, htmlcollection can also be converted into an array as it doesn't have any functionality like array has -->
+ <!-- This can be done like this-   Array.from(htmlcollection_Name) -->
+<!-- Use document.getElementByClassName('class-name') to get the elements in the form of htmlcollection -->
